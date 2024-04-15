@@ -54,12 +54,13 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
             Work
         </Heading>
-        <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nunc pretium nisl neque, eget dapibus magna euismod in. 
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; 
-            Curabitur a lorem sem.
-        </Paragraph>
+        <p>
+            Hello! I'm Cole Harrison, a student at the University of Auckland pursuing a degree in Computer Science & Statistics. 
+            With a passion for learning and a drive to excel, I'm working towards becoming a skilled ML Engineer and Software Developer. 
+        <br/>
+            This website is a showcase of my journey, from my beginnings at Westlake Boys High School, and now, my ongoing studies. 
+            Here, I share my projects and experiences, hoping to connect with potential recruiters and fellow enthusiasts alike. 
+        </p>
         <Box align="center" my={4}>
             <NextLink href='/works'>
                 <Button rightIcon={<ChevronRightIcon />}>

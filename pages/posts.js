@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/layouts/grid-item'
+import { GridItem } from '../components/grid-item'
 
 import thumbPlaceholder from '../public/Images/placeholder.png'
 const Posts = () => (
