@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "personal-website",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Coles's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Cole Harrison",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",

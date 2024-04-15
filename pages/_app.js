@@ -1,35 +1,21 @@
+import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
+import theme from '../lib/theme'
 import { AnimatePresence } from 'framer-motion'
-import Chakra from '../components/chakra'
-import Payhip from '../components/payhip'
-import { Analytics } from '@vercel/analytics/react'
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual'
-}
 
-function Website({ Component, pageProps, router }) {
-  return (
-    <Chakra cookies={pageProps.cookies}>
-      <Fonts />
-      <Payhip />
-      <Layout router={router}>
-        <AnimatePresence
-          mode="wait"
-          initial={true}
-          onExitComplete={() => {
-            if (typeof window !== 'undefined') {
-              window.scrollTo({ top: 0 })
-            }
-          }}
-        >
-          <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
-        <Analytics />
-      </Layout>
-    </Chakra>
-  )
+const Website = ({ Component, pageProps, router }) => {
+    return (
+        <ChakraProvider theme={theme}>
+            <Fonts />
+            <Layout router = {router}>
+                <AnimatePresence mode='wait' intial={true}>
+                    <Component {...pageProps} key={router.route} />
+                </AnimatePresence>
+            </Layout>
+        </ChakraProvider>
+    )
 }
 
 export default Website
