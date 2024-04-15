@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Head from 'next/head'
-import { GridItemStyle, GridItem } from '../grid-item'
+import { GridItemStyle } from '../grid-item'
 
 
 const variants = {
