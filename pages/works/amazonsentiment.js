@@ -11,7 +11,7 @@ const Work = () => {
                     Sentiment Classifier <Badge>April 2024 -</Badge>
                 </Title>
                 <Paragraph>
-                    Sentiment Analysis and Random Forest Classifier project that classifies a given review to a star rating.
+                    Sentiment Analysis and Random Forest Classifier project that classifies a given review to a star rating. 
                 </Paragraph>
                 <List ml={4} my={4}>
                     <ListItem>
