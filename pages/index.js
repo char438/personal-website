@@ -27,7 +27,7 @@ const Page = () => {
                     Cole Harrison
 
                 </Heading>
-                <p>BSc Computer Science & Statistics <br/>Working to become a ML Engineer / Software Developer</p>
+                <p>BSc Computer Science & Statistics </p>
             </Box>
             <Box  
                 flexShrink={0} 
@@ -55,9 +55,7 @@ const Page = () => {
         <p>
             Hello! I&apos;m Cole Harrison, a student at the University of Auckland pursuing a degree in Computer Science & Statistics. 
             With a passion for learning and a drive to excel, I&apos;m working towards becoming a skilled ML Engineer and Software Developer. 
-        <br/>
-            This website is a showcase of my journey, from my beginnings at Westlake Boys High School, and now, my ongoing studies. 
-            Here, I share my projects and experiences, hoping to connect with potential recruiters and fellow enthusiasts alike. 
+
         </p>
         <Box align="center" my={4}>
             <NextLink href='/works'>
